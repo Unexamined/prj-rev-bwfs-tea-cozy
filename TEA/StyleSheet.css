@@ -1,0 +1,116 @@
+
+/* header */
+html{
+	    display: flex;
+			color:seashell;
+	}
+	body {
+	    margin: 0;
+	    font-family: "Helvetica";
+	    background-color: black;
+	    font-size: 22px;
+	    text-align: center;
+
+	}
+	.flex-container {
+	    display: flex;
+	    justify-content: center;
+	    flex-wrap: wrap;
+      color: seashell;
+	}
+	header {
+	    width: 100%;
+	    position: fixed;
+	    z-index: 1;
+	    height: 69px;
+	    background-color: black;
+	    border-bottom: 1px solid seashell;
+	    align-items: center;
+	}
+	header img {
+	    height: 50px;
+	    padding-left: 10px;
+	}
+	nav {
+	    text-align: right;
+	    flex-grow: 1;
+	}
+	nav a {
+	    display: inline-flex;
+      text-decoration: underline;
+	    padding: 20px 10px;
+			color: seashell;
+	}
+
+	h2 {
+	    display: block;
+			color: seashell;
+	}
+
+
+	.main {
+	    padding-top: 69px;
+	    opacity: 0.9;
+	    width: 1200px;
+	    margin: auto;
+	}
+
+	#mission {
+	    height: 700px;
+	    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	    padding-top: 70px;
+	}
+	#mission .content {
+	    margin: auto;
+      width:100%;
+	    background-color: black;
+	}
+	#tea{
+	    width: 1000px;
+	    margin: auto;
+	    padding-top: 40px;
+	    padding-bottom: 40px;
+	}
+	.teaitems{
+	    display: flex;
+	    justify-content: center;
+	    flex-wrap: wrap;
+	}
+	.item img{
+	    display: block;
+	    height: 200px;
+	    width: 300px;
+	    padding-bottom: 10px;
+	    margin: 10px
+	}
+	.item h4	{
+	    text-align:center;
+	    font-weight: bold;
+	    display: flex;
+	}
+	#locations{
+	    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+	    height: 500px;
+	    margin: auto;
+	}
+	.location{
+	    opacity:1;
+	    background-color: black;
+	    width: 300px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    margin: 15px 40px;
+	}
+	.locationcontainer {
+	    display: flex;
+	    justify-content: center;
+	    flex-wrap: wrap;
+	}
+	#contact {
+	    height:200px;
+	}
+	footer{
+	    text-align: left;
+	    margin-left: 20px;
+	}
